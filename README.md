@@ -1,6 +1,6 @@
 # 🌦️ Weather Data Pipeline with Airflow, Postgres, Metabase and Docker 
 
-This is an end-to-end data pipeline that fetches daily weather data for UK cities using the OpenWeatherMap API, stores it in a PostgreSQL database via Apache Airflow, and visualizes it using Metabase.
+This is an end-to-end data pipeline that fetches daily weather data for cities using the OpenWeatherMap API, stores it in a PostgreSQL database via Apache Airflow, and visualizes it using Metabase.
 
 ## 🛠️ Tech Stack
 
@@ -24,7 +24,7 @@ The project follows a modern data pipeline architecture:
 
 ## 🚀 Features
 
-- Fetches real-time weather data for major UK cities using lat/lon
+- Fetches real-time weather data for major cities using lat/lon
 - Inserts weather data into a normalized Postgres schema
 - Automates and schedules via Airflow
 - Easy setup using Docker Compose
